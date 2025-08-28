@@ -1,0 +1,287 @@
+2025-08-26 15:32:19,126 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 15:32:19,240 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 15:32:19,387 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 15:32:32,018 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 15:32:32,019 | WARNING  | EnhancedRetrievalSystem | warning:693 | Slow operation detected | operation=load_clip_model | duration=12.631805181503296
+2025-08-26 15:32:32,074 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 15:32:32,176 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 15:32:32,265 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 15:32:32,266 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 15:32:32,320 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 15:32:32,321 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 15:32:32,357 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 16:00:45,201 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Starting unified index build: C:/Data/Project/One_for_all_v3.0/keyframesv2.0 → C:/Data/Project/One_for_all_v3.0/index/test.rvdb
+2025-08-26 16:00:45,204 | INFO     | EnhancedRetrievalSystem | info:684 | ⚙️ Config: 4 workers, compression level 6
+2025-08-26 16:00:50,501 | INFO     | EnhancedRetrievalSystem | info:684 | 📂 Opening file in mode 'w': existing_data=False, resume=False
+2025-08-26 16:00:50,521 | INFO     | EnhancedRetrievalSystem | info:684 | 📝 No existing data found, creating new index with 902 files
+2025-08-26 16:00:50,523 | INFO     | EnhancedRetrievalSystem | info:684 | 🔄 Processing chunk 1/1: 902 files
+2025-08-26 16:11:06,586 | INFO     | EnhancedRetrievalSystem | info:684 | 💾 Saving checkpoint at chunk 1...
+2025-08-26 16:11:06,595 | INFO     | EnhancedRetrievalSystem | info:684 | ✅ Checkpoint saved: 902 vectors, 902 metadata
+2025-08-26 16:11:06,596 | INFO     | EnhancedRetrievalSystem | info:684 | 🏗️ Building final FAISS index with 902 vectors...
+2025-08-26 16:11:07,006 | INFO     | EnhancedRetrievalSystem | info:684 | ✅ Unified index created successfully!
+2025-08-26 16:11:07,007 | INFO     | EnhancedRetrievalSystem | info:684 | 📊 Total scanned: 902 files, New processed: 902, Resumed: 0
+2025-08-26 16:11:07,007 | INFO     | EnhancedRetrievalSystem | info:684 | 🎯 Final index contains: 902 vectors, 902 metadata entries
+2025-08-26 16:11:07,008 | INFO     | EnhancedRetrievalSystem | info:684 | ⏱️ Build time: 621.80s, Chunks: 1, Checkpoints: 1
+2025-08-26 16:11:07,010 | INFO     | EnhancedRetrievalSystem | info:684 | 📦 Final size: 147.38 MB
+2025-08-26 16:11:07,010 | INFO     | EnhancedRetrievalSystem | info:684 | 🗜️ Compression ratio: 1.00x
+2025-08-26 16:11:07,011 | INFO     | EnhancedRetrievalSystem | info:684 | 💾 Memory usage: STREAMING (constant ~2000MB instead of 1.8MB)
+2025-08-26 16:11:07,015 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index created successfully!
+2025-08-26 16:11:07,016 | INFO     | EnhancedRetrievalSystem | info:684 | 📊 Performance: 902 files in 621.81s
+2025-08-26 16:11:07,017 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 0.1x faster than legacy system
+2025-08-26 16:11:07,018 | INFO     | EnhancedRetrievalSystem | info:684 | 📦 File size: 147.38 MB
+2025-08-26 16:11:07,018 | INFO     | EnhancedRetrievalSystem | info:684 | 🗜️ Compression: 1.00x smaller
+2025-08-26 16:11:13,798 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Data/Project/One_for_all_v3.0/index/test.rvdb
+2025-08-26 16:11:13,834 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 16:11:13,835 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.035s for 902 frames
+2025-08-26 16:11:13,836 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 309.1x faster than legacy system
+2025-08-26 16:11:13,837 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 16:11:19,083 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 16:11:27,866 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Data/Project/One_for_all_v3.0/index/test.rvdb
+2025-08-26 16:11:27,894 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 16:11:27,895 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.029s for 902 frames
+2025-08-26 16:11:27,896 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 376.1x faster than legacy system
+2025-08-26 16:11:27,897 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 16:11:30,015 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 16:12:33,264 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI agent translation successful | clip_prompt=Outdoor, a man repairing a bicycle | confidence=0.95
+2025-08-26 16:12:33,268 | INFO     | EnhancedRetrievalSystem | info:684 | 🔄 Using unified index for hybrid search: Outdoor, a man repairing a bicycle
+2025-08-26 16:12:33,333 | INFO     | EnhancedRetrievalSystem | info:684 | Search completed | query=Tìm hình ảnh người đàn ông đang sửa xe đạp | mode=hybrid | results_count=50
+2025-08-26 16:12:33,482 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 50 results to chat interface
+2025-08-26 16:12:34,465 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
+2025-08-26 16:22:32,196 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 16:22:32,224 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 16:22:32,294 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 16:22:36,803 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 16:22:36,836 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 16:22:36,858 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 16:22:36,929 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 16:22:36,929 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 16:22:36,969 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 16:22:36,969 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 16:22:36,986 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 16:23:55,335 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Data/Project/One_for_all_v3.0/index/test.rvdb
+2025-08-26 16:23:55,361 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 16:23:55,362 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.026s for 902 frames
+2025-08-26 16:23:55,362 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 426.3x faster than legacy system
+2025-08-26 16:23:55,363 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 16:23:56,971 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 16:24:12,966 | ERROR    | EnhancedRetrievalSystem | error:702 | OpenAI agent translation failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-26 16:24:12,972 | INFO     | EnhancedRetrievalSystem | info:684 | 🔄 Using unified index for hybrid search: hình ảnh người đàn ông sửa xe đạp
+2025-08-26 16:24:13,197 | INFO     | EnhancedRetrievalSystem | info:684 | Search completed | query=hình ảnh người đàn ông sửa xe đạp | mode=hybrid | results_count=50
+2025-08-26 16:24:13,310 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 50 results to chat interface
+2025-08-26 16:24:14,015 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
+2025-08-26 16:36:37,266 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 16:36:37,292 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 16:36:37,348 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 16:36:41,581 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 16:36:41,615 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 16:36:41,636 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 16:36:41,704 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 16:36:41,705 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 16:36:41,741 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 16:36:41,741 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 16:36:41,754 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 16:37:03,844 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI agent translation successful | clip_prompt=outdoor, one man repairing a bicycle | confidence=0.95
+2025-08-26 16:37:14,507 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Data/Project/One_for_all_v3.0/index/test.rvdb
+2025-08-26 16:37:14,530 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 16:37:14,530 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.022s for 902 frames
+2025-08-26 16:37:14,531 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 495.6x faster than legacy system
+2025-08-26 16:37:14,531 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 16:37:16,006 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 16:37:17,826 | INFO     | EnhancedRetrievalSystem | info:684 | 🔄 Using unified index for hybrid search: outdoor, one man repairing a bicycle
+2025-08-26 16:37:17,882 | INFO     | EnhancedRetrievalSystem | info:684 | Search completed | query=khung hình người đàn ông đang sửa xe đạp | mode=hybrid | results_count=50
+2025-08-26 16:37:17,978 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 50 results to chat interface
+2025-08-26 16:37:18,510 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
+2025-08-26 16:41:33,184 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 16:41:33,211 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 16:41:33,272 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 16:41:37,707 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 16:41:37,742 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 16:41:37,763 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 16:41:37,826 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 16:41:37,827 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 16:41:37,873 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 16:41:37,874 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 16:41:37,894 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 16:41:51,282 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Data/Project/One_for_all_v3.0/index/test.rvdb
+2025-08-26 16:41:51,300 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 16:41:51,301 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.018s for 902 frames
+2025-08-26 16:41:51,301 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 605.7x faster than legacy system
+2025-08-26 16:41:51,302 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 16:41:52,544 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 16:43:49,200 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 16:43:49,226 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 16:43:49,285 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 16:43:53,651 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 16:43:53,687 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 16:43:53,702 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 16:43:53,764 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 16:43:53,765 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 16:43:53,800 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 16:43:53,801 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 16:43:53,814 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 16:44:01,226 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Data/Project/One_for_all_v3.0/test.rvdb
+2025-08-26 16:44:01,248 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 16:44:01,249 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.022s for 902 frames
+2025-08-26 16:44:01,249 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 494.3x faster than legacy system
+2025-08-26 16:44:01,249 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 16:44:02,272 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 16:44:17,400 | ERROR    | EnhancedRetrievalSystem | error:702 | OpenAI agent translation failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-26 16:44:17,402 | INFO     | EnhancedRetrievalSystem | info:684 | 🔄 Using unified index for hybrid search: hình ảnh người đàn ông đang sửa xe đạp
+2025-08-26 16:44:17,596 | INFO     | EnhancedRetrievalSystem | info:684 | Search completed | query=hình ảnh người đàn ông đang sửa xe đạp | mode=hybrid | results_count=50
+2025-08-26 16:44:18,426 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 50 results to chat interface
+2025-08-26 16:44:18,898 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
+2025-08-26 16:46:01,000 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 16:46:01,028 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 16:46:01,086 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 16:46:15,700 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 16:46:15,700 | WARNING  | EnhancedRetrievalSystem | warning:693 | Slow operation detected | operation=load_clip_model | duration=14.61387300491333
+2025-08-26 16:46:15,731 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 16:46:15,752 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 16:46:15,815 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 16:46:15,816 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 16:46:15,851 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 16:46:15,852 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 16:46:15,866 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 16:46:29,240 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Data/Project/One_for_all_v3.0/test.rvdb
+2025-08-26 16:46:29,260 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 16:46:29,261 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.020s for 902 frames
+2025-08-26 16:46:29,262 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 545.1x faster than legacy system
+2025-08-26 16:46:29,263 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 16:46:30,414 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 16:46:44,071 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 50 results to chat interface
+2025-08-26 16:46:44,533 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
+2025-08-26 16:54:22,484 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 16:54:22,510 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 16:54:22,580 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 16:54:46,949 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 16:54:46,950 | WARNING  | EnhancedRetrievalSystem | warning:693 | Slow operation detected | operation=load_clip_model | duration=24.370006322860718
+2025-08-26 16:54:46,983 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 16:54:47,000 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 16:54:47,064 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 16:54:47,065 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 16:54:47,105 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 16:54:47,105 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 16:54:47,106 | INFO     | EnhancedRetrievalSystem | info:684 | 🔍 Found .rvdb file: test.rvdb - Auto-loading...
+2025-08-26 16:54:47,107 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: test.rvdb
+2025-08-26 16:54:47,127 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 16:54:47,128 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.020s for 902 frames
+2025-08-26 16:54:47,129 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 545.1x faster than legacy system
+2025-08-26 16:54:47,129 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 16:54:47,129 | INFO     | EnhancedRetrievalSystem | info:684 | ✅ Auto-loaded unified index: test.rvdb
+2025-08-26 16:54:47,130 | INFO     | EnhancedRetrievalSystem | info:684 | 📊 Stats: {'load_time': 0.018999814987182617, 'index_info': {'build_time': 621.8009061813354, 'processed_files': 902, 'total_files': 902, 'compression_ratio': 1.0, 'build_version': '3.0', 'build_timestamp': 1756199467.0069652, 'config': {'compression_level': 6, 'chunk_size': 2000, 'memory_map': True, 'incremental_threshold': 0.1, 'max_workers': 4, 'image_quality': 95, 'thumbnail_size': [224, 224], 'store_full_images': True, 'full_image_quality': 90}}, 'memory_mapped': True, 'cache_warmed': True, 'total_load_time': 0.020000696182250977, 'estimated_speedup': '545.1x faster than legacy system'}
+2025-08-26 16:54:47,144 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 16:54:57,514 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Data/Project/One_for_all_v3.0/test.rvdb
+2025-08-26 16:54:57,721 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 16:54:57,721 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.207s for 902 frames
+2025-08-26 16:54:57,722 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 52.7x faster than legacy system
+2025-08-26 16:54:57,722 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 16:54:58,838 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 16:55:20,249 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 50 results to chat interface
+2025-08-26 16:55:20,772 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
+2025-08-26 17:00:10,816 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 17:00:10,844 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 17:00:10,905 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 17:00:15,732 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 17:00:15,768 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 17:00:15,784 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 17:00:15,854 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 17:00:15,854 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 17:00:15,893 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 17:00:15,893 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 17:00:15,907 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 17:00:26,147 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Data/Project/One_for_all_v3.0/test.rvdb
+2025-08-26 17:00:26,169 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 17:00:26,170 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.023s for 902 frames
+2025-08-26 17:00:26,170 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 481.0x faster than legacy system
+2025-08-26 17:00:26,170 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 17:00:27,226 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 17:00:52,512 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 50 results to chat interface
+2025-08-26 17:00:53,005 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
+2025-08-26 17:03:52,971 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 50 results to chat interface
+2025-08-26 17:03:53,502 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
+2025-08-26 17:15:48,732 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 17:15:48,759 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 17:15:48,822 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 17:15:53,007 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 17:15:53,041 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 17:15:53,062 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 17:15:53,123 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 17:15:53,124 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 17:15:53,163 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 17:15:53,164 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 17:15:53,176 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 17:16:09,646 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Data/Project/One_for_all_v3.0/test.rvdb
+2025-08-26 17:16:09,667 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 17:16:09,668 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 0.021s for 902 frames
+2025-08-26 17:16:09,669 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 528.8x faster than legacy system
+2025-08-26 17:16:09,670 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 17:16:10,484 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 17:16:26,771 | INFO     | EnhancedRetrievalSystem | info:684 | 🔍 Starting search with limit: 100
+2025-08-26 17:16:31,490 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI agent translation successful | clip_prompt=indoor classroom during the day with bright lighting, many people writing, students of various ages, bright colors and diverse clothing, grouped at desks | confidence=0.95
+2025-08-26 17:16:31,492 | INFO     | EnhancedRetrievalSystem | info:684 | 🔄 Using unified index for hybrid search: indoor classroom during the day with bright lighting, many people writing, students of various ages, bright colors and diverse clothing, grouped at desks
+2025-08-26 17:16:31,572 | INFO     | EnhancedRetrievalSystem | info:684 | Search completed | query=hình ảnh lớp học đang học và có nhiều người đang viết chữ | mode=hybrid | results_count=100
+2025-08-26 17:16:31,572 | INFO     | EnhancedRetrievalSystem | info:684 | 📊 Search returned 100 results (limit was 100)
+2025-08-26 17:16:31,573 | INFO     | EnhancedRetrievalSystem | info:684 | 📋 Processing 100 search results
+2025-08-26 17:16:32,632 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 100 results to chat interface
+2025-08-26 17:16:33,570 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
+2025-08-26 17:21:47,327 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 17:21:47,353 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 17:21:47,409 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 17:21:52,686 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 17:21:52,687 | WARNING  | EnhancedRetrievalSystem | warning:693 | Slow operation detected | operation=load_clip_model | duration=5.277397394180298
+2025-08-26 17:21:52,721 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 17:21:52,736 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 17:21:52,800 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 17:21:52,801 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 17:21:52,837 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 17:21:52,838 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 17:21:52,851 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 17:22:39,132 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 17:22:39,157 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 17:22:39,214 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 17:22:43,322 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 17:22:43,358 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 17:22:43,374 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 17:22:43,435 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 17:22:43,435 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 17:22:43,473 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 17:22:43,474 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 17:22:43,486 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 17:23:39,883 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 17:23:39,909 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 17:23:39,965 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 17:23:44,283 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cpu | model_name=CLIPModel
+2025-08-26 17:23:44,320 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=False
+2025-08-26 17:23:44,340 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 17:23:44,402 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 17:23:44,402 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 17:23:44,439 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 17:23:44,440 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 17:23:44,452 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 17:26:51,788 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-26 17:26:51,835 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-26 17:26:51,943 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-26 17:26:58,416 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cuda | model_name=CLIPModel
+2025-08-26 17:26:58,417 | WARNING  | EnhancedRetrievalSystem | warning:693 | Slow operation detected | operation=load_clip_model | duration=6.473133563995361
+2025-08-26 17:26:58,464 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=True
+2025-08-26 17:26:58,487 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-26 17:26:58,534 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-26 17:26:58,534 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-26 17:26:58,622 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-26 17:26:58,623 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-26 17:26:58,636 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-26 17:27:15,114 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Users/dung/Desktop/AI_Challenge/round_1/round_1.rvdb
+2025-08-26 17:27:36,671 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-26 17:27:36,694 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 21.552s for 851284 frames
+2025-08-26 17:27:36,695 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 40.0x faster than legacy system
+2025-08-26 17:27:36,697 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-26 17:27:39,873 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-26 17:27:41,556 | INFO     | EnhancedRetrievalSystem | info:684 | Index optimization completed | success=True | results={'index_validated': True, 'memory_optimized': True, 'gpu_optimized': True}
+2025-08-26 17:28:03,504 | INFO     | EnhancedRetrievalSystem | info:684 | 🔍 Starting search with limit: 50
+2025-08-26 17:28:08,216 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI agent translation successful | clip_prompt=Find and recognize images of water glasses and cups | confidence=0.95
+2025-08-26 17:28:08,222 | INFO     | EnhancedRetrievalSystem | info:684 | 🔄 Using unified index for hybrid search: Find and recognize images of water glasses and cups
+2025-08-26 17:28:10,151 | INFO     | EnhancedRetrievalSystem | info:684 | Search completed | query=tìm những fame có chứ hình ảnh ly/cốc nước | mode=hybrid | results_count=50
+2025-08-26 17:28:10,152 | INFO     | EnhancedRetrievalSystem | info:684 | 📊 Search returned 50 results (limit was 50)
+2025-08-26 17:28:10,153 | INFO     | EnhancedRetrievalSystem | info:684 | 📋 Processing 50 search results
+2025-08-26 17:28:10,701 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 50 results to chat interface
+2025-08-26 17:28:11,119 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
