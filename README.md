@@ -349,8 +349,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions and support:
 - Create an issue on GitHub
-- Contact: [your-email@example.com]
-- Documentation: [Project Wiki](https://github.com/DMDung2k3/Intelligent-Video-Analysis-Retrieval-System/wiki)
+- Contact: domanhdung.1404@gmail.com
 
 ## 🏆 Acknowledgments
 
