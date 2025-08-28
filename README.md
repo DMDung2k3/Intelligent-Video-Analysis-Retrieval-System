@@ -321,13 +321,13 @@ video001,00:02:45,car,0.87,"Blue car driving on road"
 
 # Intelligent Video Analysis & Retrieval System
 
-![AI System Demo]([assets/media/demo.gif](https://github.com/DMDung2k3/Intelligent-Video-Analysis-Retrieval-System/blob/main/demo.gif))
+![AI System Demo](https://github.com/DMDung2k3/Intelligent-Video-Analysis-Retrieval-System/blob/main/demo.gif)
 
 ## 🚀 System Demo
 Watch our AI-powered video analysis system in action:
 
 <div align="center">
-  <img src="[assets/media/demo.gif](https://github.com/DMDung2k3/Intelligent-Video-Analysis-Retrieval-System/blob/main/demo.gif)" alt="AI Video Analysis Demo" width="800"/>
+  <img src="https://github.com/DMDung2k3/Intelligent-Video-Analysis-Retrieval-System/blob/main/demo.gif" alt="AI Video Analysis Demo" width="800"/>
 </div>
 
 ## Key Features Demonstrated
