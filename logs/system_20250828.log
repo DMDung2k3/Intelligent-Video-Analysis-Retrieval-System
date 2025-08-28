@@ -1,0 +1,45 @@
+2025-08-28 11:03:56,326 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-28 11:03:56,367 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-28 11:03:56,442 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-28 11:04:06,373 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cuda | model_name=CLIPModel
+2025-08-28 11:04:06,377 | WARNING  | EnhancedRetrievalSystem | warning:693 | Slow operation detected | operation=load_clip_model | duration=9.93472695350647
+2025-08-28 11:04:06,422 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=True
+2025-08-28 11:04:06,496 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-28 11:04:06,549 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-28 11:04:06,549 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-28 11:04:06,634 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-28 11:04:06,634 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-28 11:04:06,665 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-28 11:05:43,844 | INFO     | EnhancedRetrievalSystem | info:684 | 🌐 Network components initialized
+2025-08-28 11:05:43,876 | INFO     | EnhancedRetrievalSystem | info:684 | Logo loaded successfully from: logo.png
+2025-08-28 11:05:43,964 | INFO     | EnhancedRetrievalSystem | info:684 | Loading CLIP model from: openai/clip-vit-large-patch14
+2025-08-28 11:05:48,618 | INFO     | EnhancedRetrievalSystem | info:684 | CLIP model loaded successfully | model_path=openai/clip-vit-large-patch14 | device=cuda | model_name=CLIPModel
+2025-08-28 11:05:48,642 | INFO     | EnhancedRetrievalSystem | info:684 | FAISS Retriever initialized | index_type=IndexFlatIP | gpu_enabled=True
+2025-08-28 11:05:48,658 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI conversational agent initialized successfully | model=gpt-4o | tools_count=4
+2025-08-28 11:05:48,702 | INFO     | EnhancedRetrievalSystem | info:684 | Using OpenAI model for translation: gpt-4o
+2025-08-28 11:05:48,702 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI translation agent initialized successfully
+2025-08-28 11:05:48,742 | WARNING  | EnhancedRetrievalSystem | warning:693 | Initial health check found issues: ['faiss: No FAISS index loaded', 'faiss: No metadata available', 'metadata: No metadata loaded']
+2025-08-28 11:05:48,742 | INFO     | EnhancedRetrievalSystem | info:684 | Enhanced Retrieval System initialized successfully
+2025-08-28 11:05:48,755 | INFO     | EnhancedRetrievalSystem | info:684 | Main window initialized
+2025-08-28 11:06:09,475 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Loading unified index: C:/Users/dung/Desktop/AI_Challenge/round_1/round_1.rvdb
+2025-08-28 11:06:38,491 | INFO     | EnhancedRetrievalSystem | info:684 | 🎉 Unified index loaded successfully!
+2025-08-28 11:06:38,515 | INFO     | EnhancedRetrievalSystem | info:684 | ⚡ Load time: 29.009s for 851284 frames
+2025-08-28 11:06:38,516 | INFO     | EnhancedRetrievalSystem | info:684 | 🚀 Speed improvement: 29.7x faster than legacy system
+2025-08-28 11:06:38,517 | INFO     | EnhancedRetrievalSystem | info:684 | 🧠 Memory-mapped for instant access
+2025-08-28 11:06:40,123 | INFO     | EnhancedRetrievalSystem | info:684 | System marked as ready for unified search
+2025-08-28 11:06:41,687 | INFO     | EnhancedRetrievalSystem | info:684 | Index optimization completed | success=True | results={'index_validated': True, 'memory_optimized': True, 'gpu_optimized': True}
+2025-08-28 11:07:04,388 | INFO     | EnhancedRetrievalSystem | info:684 | 🔍 Starting search with limit: 50
+2025-08-28 11:07:09,866 | INFO     | EnhancedRetrievalSystem | info:684 | OpenAI agent translation successful | clip_prompt=Frame of glasses | confidence=0.8
+2025-08-28 11:07:09,874 | INFO     | EnhancedRetrievalSystem | info:684 | 🔄 Using unified index for hybrid search: Frame of glasses
+2025-08-28 11:07:17,107 | INFO     | EnhancedRetrievalSystem | info:684 | Search completed | query=let the the frame of glasses | mode=hybrid | results_count=50
+2025-08-28 11:07:17,108 | WARNING  | EnhancedRetrievalSystem | warning:693 | Slow operation detected | operation=search_query | duration=7.234642505645752 | query_length=28
+2025-08-28 11:07:17,108 | INFO     | EnhancedRetrievalSystem | info:684 | 📊 Search returned 50 results (limit was 50)
+2025-08-28 11:07:17,109 | INFO     | EnhancedRetrievalSystem | info:684 | 📋 Processing 50 search results
+2025-08-28 11:07:17,661 | INFO     | EnhancedRetrievalSystem | info:684 | Syncing 50 results to chat interface
+2025-08-28 11:07:18,177 | INFO     | EnhancedRetrievalSystem | info:684 | Successfully synced results to chat interface
+2025-08-28 11:07:44,321 | INFO     | EnhancedRetrievalSystem | info:684 | Running agent without images
+2025-08-28 11:07:54,958 | WARNING  | EnhancedRetrievalSystem | warning:693 | Slow operation detected | operation=openai_agent_chat | duration=10.641952753067017
+2025-08-28 11:08:27,547 | INFO     | EnhancedRetrievalSystem | info:684 | Running agent without images
+2025-08-28 11:08:33,995 | WARNING  | EnhancedRetrievalSystem | warning:693 | Slow operation detected | operation=openai_agent_chat | duration=6.449310779571533
+2025-08-28 11:09:02,775 | INFO     | EnhancedRetrievalSystem | info:684 | Running agent without images
+2025-08-28 11:09:08,049 | WARNING  | EnhancedRetrievalSystem | warning:693 | Slow operation detected | operation=openai_agent_chat | duration=5.27604079246521

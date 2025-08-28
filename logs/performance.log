@@ -1,0 +1,11 @@
+2025-08-28 11:04:06,383 | {"operation": "load_clip_model", "duration": 9.9347, "timestamp": "2025-08-28T11:04:06.381998"}
+2025-08-28 11:04:06,633 | {"operation": "clip_encode_text", "duration": 0.0826, "timestamp": "2025-08-28T11:04:06.633641", "text_count": "1"}
+2025-08-28 11:05:48,618 | {"operation": "load_clip_model", "duration": 4.6549, "timestamp": "2025-08-28T11:05:48.618924"}
+2025-08-28 11:05:48,742 | {"operation": "clip_encode_text", "duration": 0.0382, "timestamp": "2025-08-28T11:05:48.741956", "text_count": "1"}
+2025-08-28 11:06:41,667 | {"operation": "clip_encode_text", "duration": 0.2734, "timestamp": "2025-08-28T11:06:41.665956", "text_count": "1"}
+2025-08-28 11:06:41,688 | {"operation": "optimize_index", "duration": 0.3008, "timestamp": "2025-08-28T11:06:41.687834"}
+2025-08-28 11:07:09,963 | {"operation": "clip_encode_text", "duration": 0.0859, "timestamp": "2025-08-28T11:07:09.963040", "text_count": "1"}
+2025-08-28 11:07:17,108 | {"operation": "search_query", "duration": 7.2346, "timestamp": "2025-08-28T11:07:17.108917", "query_length": "28"}
+2025-08-28 11:07:54,960 | {"operation": "openai_agent_chat", "duration": 10.642, "timestamp": "2025-08-28T11:07:54.960405"}
+2025-08-28 11:08:33,999 | {"operation": "openai_agent_chat", "duration": 6.4493, "timestamp": "2025-08-28T11:08:33.999175"}
+2025-08-28 11:09:08,051 | {"operation": "openai_agent_chat", "duration": 5.276, "timestamp": "2025-08-28T11:09:08.051123"}
