@@ -318,6 +318,24 @@ video001,00:02:45,car,0.87,"Blue car driving on road"
 5. Push to the branch: `git push origin feature/new-feature`
 6. Submit a pull request
 
+
+# Intelligent Video Analysis & Retrieval System
+
+![AI System Demo]([assets/media/demo.gif](https://github.com/DMDung2k3/Intelligent-Video-Analysis-Retrieval-System/blob/main/demo.gif))
+
+## 🚀 System Demo
+Watch our AI-powered video analysis system in action:
+
+<div align="center">
+  <img src="[assets/media/demo.gif](https://github.com/DMDung2k3/Intelligent-Video-Analysis-Retrieval-System/blob/main/demo.gif)" alt="AI Video Analysis Demo" width="800"/>
+</div>
+
+## Key Features Demonstrated
+- 🤖 Multi-agent AI coordination
+- 🔍 RAG-powered semantic search
+- 📹 Real-time video processing
+- 🎯 Intelligent content retrieval
+
 ### Code Style
 
 - Follow PEP 8 for Python code
